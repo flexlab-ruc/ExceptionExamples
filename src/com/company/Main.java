@@ -6,6 +6,32 @@ public class Main {
 
     public static void main(String[] args) {
 
+        ColorArrayExercise colorList = new ColorArrayExercise();
+
+        try{
+            colorList.addColor("red", 3);
+            colorList.addColor("blue",1 );
+            colorList.addColor("blue",2 );
+            colorList.addColor("blue",3 );
+            colorList.addColor("blue",4 );
+            colorList.addColor("blue",0 );
+
+        }
+        catch (Exception e)
+        {
+            System.out.println("problems to be solved....");
+            System.out.println(e);
+        }
+
+        try{
+            colorList.printList();
+        }
+        catch (Exception e)
+        {
+            System.out.println("problems to be solved....");
+            System.out.println(e);
+        }
+
         /*
         Scanner scanner = new Scanner(System.in);
         System.out.println("your age please");
