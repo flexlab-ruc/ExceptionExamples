@@ -22,11 +22,12 @@ public class Main {
 
         }*/
 
+        /*
         Scanner scanner = new Scanner(System.in);
         System.out.println("your age please");
         int age = Integer.parseInt(scanner.nextLine());
         System.out.println("you are " + age + " years old"  );
-
+        */
 
 
 
