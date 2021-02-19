@@ -12,9 +12,9 @@ public class ColorArrayExercise {
         colors[position] = color;
     }
 
-    public void printList() throws Exception {
+    public void printList() throws MissingColorException {
         for (String color: colors) {
-            if (color == null) throw new Exception("Missing Color in list");
+            if (color == null) throw new MissingColorException("Missing Color in list");
             else System.out.println(color);
         }
     }
