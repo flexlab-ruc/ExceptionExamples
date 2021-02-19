@@ -28,8 +28,22 @@ public class Main {
         }
         catch (Exception e)
         {
-            System.out.println("problems to be solved....");
-            System.out.println(e);
+            //System.out.println("problems to be solved....");
+            //System.out.println(e);
+            
+            // let main fix the issue!"
+            // fix all no colors becomes black!?
+            for (int i = 0; i < colorList.colors.length; i++) {
+                if (colorList.colors[i] == null) colorList.colors[i] = "black";
+            }
+            try {
+                colorList.printList();
+            }
+            catch (Exception ee)
+            {
+                System.out.println("wrong anyway?");
+            }
+
         }
 
         /*

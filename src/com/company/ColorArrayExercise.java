@@ -1,7 +1,7 @@
 package com.company;
 
 public class ColorArrayExercise {
-    private String[] colors = new String[6];
+    public String[] colors = new String[6];
 
     // take a number and a string and inser t the string/color into the array
     public void addColor(String color, int position) throws Exception {
